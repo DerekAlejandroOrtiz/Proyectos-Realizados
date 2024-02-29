@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript"src="js/bootstrap.min.js"></script>
+	<title>utilidades de la grid de bootstraps</title>
+</head>
+<style type="text/css">
+	.row{
+		background: #e8e8e8;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.columnas{
+		background-color: #f2f2f2;
+		text-align: center;
+		padding: 10px;
+		border: 1px solid black;
+	}
+</style>
+<body>
+	 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+      <span class="navbar-text">Utilidades</span>
+      <a class="btn btn-primary" href="../index.html">volver</a> 
+      </div>
+      </nav>
+
+	<div class="container">
+	<!--<button class="btn btn-primary">boton de bootstraps</button>-->
+	<!--order-1 es para reorganizar las posiciones y va del 1 al 5 esto es util para no cambiar de posicion toda una seccion del texto-->
+		<h3>Ordenar columnas con order -1 al order -5</h3>
+		<div class="row">
+			<!--extrachico xs
+			chico sm
+			mediano md
+			grande lg
+			extragrande xl
+			-->
+			<div class="columnas col order-1 order-md-4 order-lg-1">columna 1</div>
+			<div class="columnas col order-2 order-md-3 order-lg-2">columna 2</div>
+			<div class="columnas col order-3 order-md-2 order-lg-3">columna 3</div>
+			<div class="columnas col order-4 order-md-1 order-lg-4">columna 4</div>
+		</div>
+
+
+
+		<h3>Ordenar columnas con order-last y al order -first</h3>
+		<div class="row">
+
+			<div class="columnas col order-last">columna 1</div>
+			<div class="columnas col order-first">columna 2</div>
+			<div class="columnas col ">columna 3</div>
+			<div class="columnas col ">columna 4</div>
+		</div>
+
+		<h3>Ordenar columnas con offset</h3>
+		<p>con offset indico cuantas columas a la derecha se va a posicionar el elemento al que se le agrega la clase</p>
+		<div class="row">
+
+			<div class="columnas col-3 offset-3">columna 1</div>
+
+		</div>
+		<div class="row">
+
+			<div class="columnas col-3 offset-6">columna 1</div>
+
+		</div>
+		<div class="row">
+
+			<div class="columnas col-3 offset-9 ">columna 1</div>
+
+		</div>
+	</div>
+</body>
+</html>
