@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Diseño Responsivo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript"src="js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	.columnas{
+		background-color: lightgreen;
+	}
+	.grande{
+		height: 400px;
+		width: 650px;
+		background-color: red ;
+		border-radius: 20px;
+		margin-bottom: 10px;
+	}
+	.chico{
+		height: 300px;
+		width: 490px;
+		background-color: skyblue ;
+		border-radius: 20px;
+		margin-bottom: 10px;
+	}
+	.margin-20px{
+		margin-bottom: 10px;
+	}
+	.cartas{
+		height: 300px;
+		background-color: #e8e8e8 ;
+		border-radius: 20px;
+		margin-bottom: 10px;	
+	}
+	.footer{
+		background-color: black;
+		color: white;
+
+	}
+	.texto-cambiante{
+		display: none;
+	}
+
+</style>
+<body>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+      <span class="navbar-text">Responsivo</span>
+      <a class="btn btn-primary" href="../index.html">volver</a>
+      </div>
+      </nav>
+
+	<div class="container">
+		<!--<button class="btn btn-primary">boton</button>-->
+		<div class="row text-center justify-content-center align-items-center margin-20px">
+			<div class="col-12 columnas"><h2>Diseño responsivo</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididmargin-20pxunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+		</div>
+		<div class="row text-center justify-content-center align-items-center">
+			<div class="col-lg-7 col-s-12 grande"><h2>Texto grande</h2>
+			<p class="d-sm-none d-block">Columnas 12</p>
+			<p class="d-sm-block d-none">Columnas 7</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labo.corum.</p>
+			</div>
+
+			<div class="col-lg-5 col-s-12 chico"><h2>Texto Chico</h2>
+			<p class="d-sm-none d-block">Columnas 12</p>
+			<p class="d-sm-block d-none">Columnas 5</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+			<div class="row text-center align-items-center justify-content-between">
+			<div class="col-lg-3 col-md-4 col-s-12 cartas"><h2>Cartas</h2>
+			<p class="d-sm-none d-block">Columnas 12</p>
+			<p class="d-sm-block d-none">Columnas 3</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+
+			<div class="col-lg-3 col-md-4 col-s-12 cartas "><h2>Cartas</h2>
+			<p class="d-sm-none d-block">Columnas 12</p>
+			<p class="d-sm-block d-none">Columnas 3</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+
+			<div class="col-lg-3 col-md-4 col-s-12 cartas "><h2>Cartas</h2>
+			<p class="d-sm-none d-block">Columnas 12</p>
+			<p class="d-sm-block d-none">Columnas 3</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+
+			</div>
+		</div>
+	</div>
+	<footer class="footer align-items-center text-center">
+		<h3>Pie de pagina</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</footer>
+
+
+</body>
+</html>
